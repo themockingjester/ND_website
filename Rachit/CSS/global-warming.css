@@ -22,13 +22,13 @@ body{
 .menu-items>a{
     border:3px solid red;
     display:block;
-    width:5rem;
+    width:7rem;
     height:2rem;
-    margin:0em 1rem 0em 1rem;
+    margin:0;
 }
-.menu-items>a>button{
+.menu-items>a button{
     cursor: pointer;
-    background: white;
+    background: grey;
     text-decoration: none;
     width:5rem;
     height:2rem;
@@ -37,9 +37,25 @@ body{
     margin:0em 1rem 0em 1rem;
 }
 .menu-items>a>button{
-    margin-left:;
+    border:3px solid blue;
+    /* margin-left:; */
 }
+#home-menu{
+    margin-left:39rem;
+}
+.cool-link::after{
+    content:'';
+    display:block;
+    width:0;
+    height:2px;
+    background: #000000;
+    transition:width .3s;
 
+}
+.cool-link:hover::after{
+    width:100%;
+    transition:width .3s;
+}
 #banner{
     /* border:5px solid red; */
     width:99vw;
