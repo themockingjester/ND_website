@@ -58,6 +58,26 @@ body{
 }
 
 
+#banner-text{
+    position:absolute;
+    top: 127px;
+    left: 117px;
+    font-size: 3rem;
+    font: 500 31px/1.4 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    line-height: 73px;
+    font-weight: bold;
+    letter-spacing: 17px;
+}
+#banner-text-fire{
+    position:absolute;
+    top: 198px;
+    left: 117px;
+    font-size: 3rem;
+    font: 500 70px/1.4 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    line-height: 36px;
+    font-weight: bold;
+    letter-spacing: 16px;
+}
 
 
 #banner{
