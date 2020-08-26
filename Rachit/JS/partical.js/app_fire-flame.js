@@ -26,13 +26,13 @@ particlesJS('fire-flame',
         "value": ["#FFAA00" , "#FFE700" ,"#FF7B00","#FFDAB8","#FFED9E"]
       },
       "shape": {
-        "type": "polygon",
+        "type": ["triangle","polygon"],
         "stroke": {
           "width": 0,
           "color": "#FFDC00"
         },
         "polygon": {
-          "nb_sides": 3
+          "nb_sides": 6
         },
         "image": {
           "src": "img/github.svg",
