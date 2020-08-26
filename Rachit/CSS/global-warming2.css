@@ -1,0 +1,34 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+.nav-bar{
+    background: grey;
+}
+.nav-bar>.logo-img{
+    height:100%;
+    width:10rem ;
+}
+
+#banner{
+    /* border:5px solid red; */
+    width:99vw;
+    height:116vh;
+    background:url(../img/monkey.jpg);
+    background-repeat: no-repeat;
+    /* background-size: 1545px 922px; */
+    background-size: 100vw 110vh;
+    /* z-index: 3; */
+}
+
+#fire-flame{
+    /* border:2px solid red; */
+    /* z-index: 10; */
+    position:absolute;
+    height:283px;
+    width:60vw;
+    top:84px;
+    left:414px;
+    transform:rotate(-7deg);
+}
