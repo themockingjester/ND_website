@@ -42,6 +42,14 @@
 
     <script type="text/javascript" src="../js/partical.js/particles_fire-flame.js"></script>
     <script type="text/javascript" src="../js/partical.js/app_fire-flame.js"></script>
+    <script type="text/javascript">
+        let progress = document.getElementById('progressbar');
+        let totalHeight = document.body.scrollHeight - window.innerHeight;
+        window.onscroll = function () {
+            let progressHeight = (window.pageYOffset / totalHeight) * 100;
+            progress.style.height = progressHeight + "%";
+        }
+    </script>
 </body>
 
 </html>
