@@ -148,8 +148,7 @@ body {
 }
 
 #fire-flame {
-  /* border:2px solid red; */
-  /* z-index: 10; */
+  z-index: 10;
   position: absolute;
   height: 283px;
   width: 60vw;
