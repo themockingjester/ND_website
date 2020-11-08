@@ -4,37 +4,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" conten="ie-edge">
     <title>Document</title>
 
-    <link href="../CSS/global-warming.css" rel="stylesheet" media="(max-width: 1600px) and (min-width: 1400px)">
-    <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
-
+    <link href="../CSS/global-warming1.css" rel="stylesheet" media="(max-width: 1600px) and (min-width: 1400px)">
+    
 </head>
 
 <body>
+    <nav>
+        <div class="logo">
+            <h4>LOGO</h4>
+        </div>
 
-    <div class="nav-bar">
-        <img src="../img/logo.png" alt="" class="logo-img">
-        <ul >
-            <li class="menu-items" id="home-menu"><a href="#" class="cool-link"><button>Home</button></a></li>
-            <li class="menu-items"><a href="#" class="cool-link"><button>Stories</button></a></li>
-            <li class="menu-items"><a href="#" class="cool-link"><button>Training</button></a></li>
-            <li class="menu-items"><a href="#" class="cool-link"><button>FAQ</button></a></li>
-            <li class="menu-items"><a href="#" class="cool-link"><button>Donate</button></a></li>
-            <li class="menu-items"><a href="#" class="cool-link"><button>Contact</button></a></li>
+        <ul class="nav-links">
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">WORK</a></li>
+            <li><a href="#">PROJECTS</a></li>
         </ul>
 
-    </div>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
 
+    <script>
+        const navSlide = () => {
+            const burger = document.querySelector('.burger');
+            const nav = document.querySelector('.nav-links');
+            const navLinks = document.querySelectorAll('.nav-links li');
 
-    <div id="banner"></div>
-    <!-- <div id="fire-flame"></div> -->
+            burger.addEventListener('click', () => {
+                nav.classList.toggle('nav-active');
 
+                navLinks.forEach((link, index) => {
+                    if (link.style.animation) {
+                        link.style.animation = ''
+                    }
+                    else {
+                        link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7 + 0.3}s`;
+                    }
+                });
 
-    <!-- <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni iure dolor, a ab, sint explicabo molestiae eligendi in, at porro unde laudantium ducimus aliquid quas facere. Delectus adipisci qui, commodi dolorum eligendi placeat consectetur eaque hic veniam maiores rerum ad, quam incidunt consequuntur recusandae expedita. Quibusdam, sapiente adipisci explicabo ullam nostrum quam laboriosam eveniet ex quidem necessitatibus! Iure laborum delectus cum hic neque, consectetur asperiores quod necessitatibus. Iste, saepe. Dolore asperiores, nostrum totam est dolores necessitatibus similique nulla at, repellat ea molestiae consequuntur consequatur commodi ullam voluptate voluptas cum explicabo, optio iusto exercitationem. Repudiandae quas iure unde quia fuga quibusdam?</div> -->
+                burger.classList.toggle('toggle');
+                
+            });
 
-    <script type="text/javascript" src="../js/partical.js/particles_fire-flame.js"></script>
-    <script type="text/javascript" src="../js/partical.js/app_fire-flame.js"></script>
+        }
+
+        navSlide();
+
+    </script>
 </body>
 
 </html>
