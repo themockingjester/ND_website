@@ -13,7 +13,8 @@ nav {
     font-family: "Poppins", sans-serif;
 }
 
-.logo {
+div .logo {
+    font-style: 'OCR A Std, monospace';
     color: white;
     letter-spacing: 5px;
     font-size: 22px;
