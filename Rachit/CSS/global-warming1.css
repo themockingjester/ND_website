@@ -13,8 +13,8 @@ nav {
     font-family: "Poppins", sans-serif;
 }
 
-div .logo {
-    font-style: 'OCR A Std, monospace';
+.logo {
+    font-style: "Bookman, URW Bookman L, serif";
     color: white;
     letter-spacing: 5px;
     font-size: 22px;
