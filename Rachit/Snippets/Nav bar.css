@@ -17,14 +17,14 @@ nav {
 .logo .s{
     display:inline-block;
     font-family: "papyrus";
-    color: white;
+    color: rgb(121, 71, 6);
     letter-spacing: -4px;
     font-size: 45px;
 }
 .logo .a{
     display: inline;
     /* font-family: "papyrus"; */
-    color: white;
+    color: rgb(121, 71, 6);
     letter-spacing: 5px;
     font-size: 22px;
 }
