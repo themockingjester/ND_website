@@ -76,7 +76,7 @@ nav {
         right: 0px;
         height: 92vh;
         top: 8vh;
-        background-color: #5D4954;
+        background-color: linear-gradient(to right,rgb(225, 226, 210),rgb(224, 223, 203),rgb(219, 216, 199),rgb(214, 211, 192));
         display: flex;
         flex-direction: column;
         align-items: center;
