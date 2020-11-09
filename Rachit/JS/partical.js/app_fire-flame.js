@@ -11,7 +11,7 @@ particlesJS.load('particles-js', 'particles.json', function() {
 
 /* Otherwise just put the config content (json): */
 
-particlesJS('fire-flames',
+particlesJS('banner-img',
   
   {
     "particles": {
@@ -70,7 +70,7 @@ particlesJS('fire-flames',
       "move": {
         "enable": true,
         "speed": 5,
-        "direction": "top",
+        "direction": "top-left",
         "random": false,
         "straight": false,
         "out_mode": "out",
