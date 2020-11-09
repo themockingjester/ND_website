@@ -3,3 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+#banner {
+    /* border:5px solid red; */
+    width: 100%;
+    height: auto;
+    background: url(../img/monkey.jpg);
+    background-repeat: no-repeat;
+    /* background-size: 1545px 922px; */
+    background-size: 100vw 110vh;
+    /* z-index: 3; */
+  }
