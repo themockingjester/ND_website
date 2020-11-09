@@ -11,7 +11,7 @@ nav {
     min-height: 8vh;
     background-color: #5D4954;
     font-family: "Poppins", sans-serif;
-    background: linear-gradient(to right, rgb(213, 217, 203), rgb(192, 194, 180));
+    background: linear-gradient(to right,rgb(225, 226, 210),rgb(224, 223, 203),rgb(219, 216, 199),rgb(214, 211, 192));
 }
 
 .logo .s{
@@ -20,6 +20,7 @@ nav {
     color: rgb(121, 71, 6);
     letter-spacing: -4px;
     font-size: 45px;
+    font-style: italic;
 }
 .logo .a{
     display: inline;
@@ -76,7 +77,7 @@ nav {
         right: 0px;
         height: 92vh;
         top: 8vh;
-        background-color: linear-gradient(to right,rgb(225, 226, 210),rgb(224, 223, 203),rgb(219, 216, 199),rgb(214, 211, 192));
+        background: linear-gradient(to right,rgb(225, 226, 210),rgb(224, 223, 203),rgb(219, 216, 199),rgb(214, 211, 192));
         display: flex;
         flex-direction: column;
         align-items: center;
