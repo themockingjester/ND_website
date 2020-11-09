@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: linear-gradient(to right, rgb(213, 217, 203), rgb(192, 194, 180));
 }
 
 nav {
@@ -12,6 +11,7 @@ nav {
     min-height: 8vh;
     background-color: #5D4954;
     font-family: "Poppins", sans-serif;
+    background: linear-gradient(to right, rgb(213, 217, 203), rgb(192, 194, 180));
 }
 
 .logo .s{
