@@ -41,6 +41,17 @@
 
     <script>
         const navSlide = () => {
+            // ---------------------------------Progress Bar------------------------------------------------------------------------------
+            let progress = document.getElementById('progressbar');
+            let totalHeight = document.body.scrollHeight - window.innerHeight;
+            window.onscroll = function () {
+                let progressHeight = (window.pageYOffset / totalHeight) * 100;
+                progress.style.height = progressHeight + "%";
+            }
+            // ----------------------------------------------------------------------------------------------------------------------------
+
+
+            // ---------------------------------Burger sign------------------------------------------------------------------------------
             const burger = document.querySelector('.burger');
             const nav = document.querySelector('.nav-links');
             const navLinks = document.querySelectorAll('.nav-links li');
@@ -64,6 +75,7 @@
         }
 
         navSlide();
+        // ----------------------------------------------------------------------------------------------------------------------------
 
     </script>
 </body>
