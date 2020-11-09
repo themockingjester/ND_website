@@ -17,20 +17,22 @@
     transform: rotate(-7deg);
   }
 
-  @media screen and (min-width:1800px) and (max-width:2000px) {
-    #fire-flames{
-        height: 38%;
-        width: 63%;
-        top: 25%;
-        left: 22%;
-        }
+@media screen and (min-width:1800px) and (max-width:2000px) {
+#fire-flames{
+    height: 38%;
+    width: 63%;
+    top: 25%;
+    left: 22%;
+    }
+}
 
-    #fire-flames{
-        height: 38%;
-        width: 63%;
-        top: 25%;
-        left: 22%;
-        }
+@media screen and (min-width:1400px) and (max-width:1799px) {
+#fire-flames{
+    height: 38%;
+    width: 63%;
+    top: 25%;
+    left: 22%;
+    }
 }
   
   .content {
