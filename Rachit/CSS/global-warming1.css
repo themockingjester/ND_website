@@ -13,11 +13,20 @@ nav {
     font-family: "Poppins", sans-serif;
 }
 
-.logo {
-    font-family: "papyrus";
+.logo .a{
+    display: inline;
+    /* font-family: "papyrus"; */
     color: white;
     letter-spacing: 5px;
     font-size: 22px;
+}
+
+.logo .s{
+    display:inline-block;
+    font-family: "papyrus";
+    color: white;
+    letter-spacing: -4px;
+    font-size: 45px;
 }
 
 .nav-links {
