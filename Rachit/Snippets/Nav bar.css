@@ -121,3 +121,16 @@ nav {
 .toggle .line3{
     transform:rotate(45deg) translate(-5px,-6px);
 }
+
+.cool-link::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background: rgb(121, 71, 6);
+    transition: width 0.3s;
+  }
+  .cool-link:hover::after {
+    width: 100%;
+    transition: width 0.3s;
+  }
