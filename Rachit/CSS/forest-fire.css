@@ -52,17 +52,17 @@
 }
 @media screen and (min-width:1026px) and (max-width:1199px) {
 #fire-flames{
-    height: 16%;
+    height: 28%;
     width: 63%;
-    top: 14%;
+    top: 24%;
     left: 22%;
     }
 }
 @media screen and (min-width:1000px) and (max-width:1025px) {
 #fire-flames{
-    height: 28%;
+    height: 16%;
     width: 63%;
-    top: 24%;
+    top: 14%;
     left: 22%;
     }
 }
