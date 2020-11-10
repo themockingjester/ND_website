@@ -50,7 +50,15 @@
     left: 22%;
     }
 }
-@media screen and (min-width:1000px) and (max-width:1199px) {
+@media screen and (min-width:1026px) and (max-width:1199px) {
+#fire-flames{
+    height: 28%;
+    width: 63%;
+    top: 24%;
+    left: 22%;
+    }
+}
+@media screen and (min-width:1000px) and (max-width:1025px) {
 #fire-flames{
     height: 28%;
     width: 63%;
