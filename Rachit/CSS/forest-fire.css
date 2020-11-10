@@ -66,7 +66,7 @@
     left: 22%;
     }
 }
-@media screen and (min-width:800px) and (max-width:1099px) {
+@media screen and (min-width:800px) and (max-width:999px) {
 #fire-flames{
     height: 28%;
     width: 63%;
