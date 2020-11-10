@@ -82,7 +82,15 @@
     left: 22%;
     }
 }
-@media screen and (min-width:200px) and (max-width:399px) {
+@media screen and (min-width:350px) and (max-width:399px) {
+#fire-flames{
+    height: 9%;
+    width: 59%;
+    top: 13%;
+    left: 25%;
+    }
+}
+@media screen and (min-width:200px) and (max-width:349px) {
 #fire-flames{
     height: 12%;
     width: 59%;
