@@ -62,7 +62,23 @@
 #fire-flames{
     height: 28%;
     width: 63%;
-    top: 24%;
+    top: 18%;
+    left: 22%;
+    }
+}
+@media screen and (min-width:600px) and (max-width:799px) {
+#fire-flames{
+    height: 28%;
+    width: 63%;
+    top: 18%;
+    left: 22%;
+    }
+}
+@media screen and (min-width:400px) and (max-width:599px) {
+#fire-flames{
+    height: 28%;
+    width: 63%;
+    top: 18%;
     left: 22%;
     }
 }
