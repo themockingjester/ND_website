@@ -14,6 +14,10 @@ nav {
     background: linear-gradient(to right,rgb(225, 226, 210),rgb(224, 223, 203),rgb(219, 216, 199),rgb(214, 211, 192));
 }
 
+nav>.logo{
+    position:fixed;
+}
+
 .logo .s{
     display:inline-block;
     font-family: "papyrus";
